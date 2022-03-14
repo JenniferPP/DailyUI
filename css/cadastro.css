@@ -1,0 +1,61 @@
+/* Logo */
+.left-side .logo {
+    z-index: 1111;
+    position:absolute;
+    display: flex;
+    width: 40%;
+    padding: 20px 0;
+    justify-content: center; 
+    text-align: center;
+}
+.left-side .logo h1{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 80px;
+    color: White;
+}
+/* Formulário de cadastro */
+.right-side{
+    text-align: center;
+}
+.form p{
+    margin-top: -25px;
+}
+.form .formCadastro input, .form .formCadastro #senha input {
+    height: 40px;
+    width: 80%;
+    border: 1px solid #1F2020;
+    border-radius: 7px;
+    padding: 0 7px 0 15px;
+    font-size: 15px;
+    outline: none;
+}
+.form .formCadastro input:focus, .form .formCadastro #senha input:focus{
+    border: 1px solid #ED3D5E;
+}
+.form .formCadastro button{
+    background-color: #ED3D5E;
+    color: white;
+    border: none;
+    width: 35%;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 7px;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+.form .formCadastro button:hover{
+    background-color: #FF0778;   
+}
+
+/* Botão para logar */
+.login p{
+    font-size: 11px;
+    color:#1F2020;
+    font-weight: bold;
+}
+.login p a{
+    color: #ED3D5E;
+    text-decoration: none;
+    font-weight: bold;
+}
+

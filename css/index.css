@@ -1,0 +1,38 @@
+/* Logo */
+.logo{
+    text-align: center;
+}
+.logo h1{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 80px;
+}
+
+/* Botões de cadastro e login */
+.buttons{
+    text-align: center;
+    margin-top: 110px;
+}
+.buttons a{
+    padding: 7px 25%;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 7px;
+    border:1px solid #ED3D5E;
+}
+.buttons .signIn{
+    background-color: #ED3D5E;
+    color: white;
+    transition: all 0.8s;
+}
+.buttons .signIn:hover{
+    background-color: #FF0778;
+}
+.buttons .signUp{
+    background-color: white;
+    color: #ED3D5E;
+    transition: all 0.8s;
+}
+.buttons .signUp:hover{
+    border:1px solid #9c9c9c;
+    color: #9c9c9c;
+ }

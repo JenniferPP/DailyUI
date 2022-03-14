@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/geral.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <!--Font Waesome Font CDN LINK-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="left-side">
+                <img src="/src/img/img2.jpg" alt="">
+                <div class="btnInicio">
+                    <a href="index.html">Início</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="logo">
+                    <h1>LOGO</h1>
+                    <p>Viagens de ônibus mais baratas!</p>
+                </div>
+                <br><br>
+                <div class="form">
+                    <form action="post">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <br><br>
+                        <div class="senha" id="senha">
+                            <input type="password" name="password" id="password" placeholder="Senha" required>
+                            <i class="fa fa-solid fa-eye olho" onclick="versenha()" onmouseout="ocultarsenha()" id="icon"></i>
+                        </div>
+                        <br>
+                        <button type="button" class="entrar">Entrar</button>
+                    </form>
+                </div>
+                <br>
+                <div class="effect">
+                    <div class="line1"></div>
+                    <div class="bolinha"></div>
+                    <div class="line2"></div>
+                </div>
+                <br>
+                <div class="acessos">
+                    <p>Acessar com:</p>
+                    <br>
+                    <div class="midias">
+                        <button class="G"><i><img src="./src/img/google.png" alt="" width="20px"></i> Google</button>             
+                        <button class="F"><i><img src="./src/img/face.png" alt="" width="20px"></i> Facebook</button>
+                    </div>
+                </div>
+                <br><br>
+                <div class="cadastro">
+                    <p>Já possui cadastro? <a href="cadastro.html">Cadastrar-se</a></p>
+                </div>
+                <div class="btnInicio-final">
+                    <a href="index.html"><i class="fa fa-solid fa-angle-left"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/geral.js"></script>
+    
+</body>
+</html>
